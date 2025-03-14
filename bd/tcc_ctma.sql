@@ -256,7 +256,9 @@ CREATE TABLE `usuarios` (
 
 INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`, `tipo`, `data_cadastro`, `curso_id`, `modulo_id`) VALUES
 (2, 'adm', 'adm@adm', '$2y$10$NHo3ZtmTBhpJpxEX0qymuud8CSkQ2lSHA872NBo27gHvH8KfWoYiS', 'admin', '2024-11-01 23:22:10', NULL, NULL),
-
+(3, 'gabriel', 'gb@gb', '$2y$10$F3ZKkg8eq3pIeW0fMuulmOCOHaFLQhreA0T.dqL.aHzIiMlkGFIE6', 'professor', '2024-11-01 23:28:00', NULL, NULL),
+(9, 'aluno3', 'al3@al3', '$2y$10$SynfdUzez/z8FQPU0PHjvu2bPzPfveqSdi3kBo4v9b1yTYJzFygeO', 'aluno', '2024-11-04 15:20:41', 1, 1),
+(10, 'gabriel', 'a@a', '$2y$10$f7yYop9n18Dxv.5YeDM3TeNPzI8QYXS4PQJ2fo3egWcL7B.y/TGPq', 'aluno', '2024-11-11 01:48:30', 1, 2);
 
 --
 -- Índices para tabelas despejadas
