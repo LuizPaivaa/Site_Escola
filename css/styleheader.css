@@ -1,0 +1,115 @@
+/* Navbar Custom */
+.custom-navbar {
+    background: linear-gradient(90deg, #053566, #003366);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px 30px;
+}
+
+.custom-navbar .navbar-brand img {
+    width: 150px;
+    transition: transform 0.3s ease;
+}
+
+.custom-navbar .navbar-brand img:hover {
+    transform: scale(1.05);
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+    color: rgb(179, 156, 156) !important;
+}
+.navbar-nav .nav-link:hover {
+    color: #f39c12 !important;
+    transform: translateY(-2px);
+}
+
+.navbar-nav .nav-item.dropdown .dropdown-menu {
+    background-color: #01264b;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .dropdown-item {
+    color: white !important;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-nav .dropdown-item:hover {
+    background-color: #3498db !important;
+}
+
+/* Button Custom */
+.navbar-buttons a {
+  
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+.btn-login {
+    border: 2px solid #f39c12;
+    color: #f39c12;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #f39c12;
+    color: white;
+}
+
+.btn-signup {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-signup:hover {
+    background-color: #e67e22;
+    transform: translateY(-2px);
+}
+
+/* Responsividade */
+@media (max-width: 991px) {
+    .custom-navbar .navbar-collapse {
+        justify-content: flex-end;
+    }
+
+    .custom-navbar .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .custom-navbar .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .custom-navbar .navbar-nav {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .custom-navbar .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+
+    .navbar-buttons {
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .navbar-buttons a {
+        display: inline-block;
+        margin: 5px;
+    }
+}
