@@ -193,25 +193,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
    <?php if ($erro): ?>
         <p><?php echo $erro; ?></p>
         <?php endif; ?>
-        <form action="login.php" method="POST">
-            <label for="identificacao">Identificação</label>
+        <form action="ResetSenha.php" method="POST">
+            <label for="RA">RA (Registro do Aluno)</label>
+            <input type="text" id="RA" name="email" required>
+
+            <label for="identificacao">Email</label>
             <input type="text" id="identificacao" name="email" required>
 
-            <label for="senha">Senha</label>
+            <label for="senha">Nova Senha</label>
             <input type="password" id="senha" name="senha" required>
 
-            <button type="submit">Entrar</button>
-        </form>
+            <label for="senha">Repetir Nova Senha</label>
+            <input type="password" id="senha" name="senha" required>
 
-        <div class="links">
-            <a href="cadastro_aluno.php">Não possui conta? Cadastre aqui ></a>
-            
-            
-        </div>
+            <button type="submit">Resetar senha</button>
+        </form>
 
         <footer>
             <p>Copyright © 2024 Colégio. Todos os direitos reservados.</p>
-            <a href="admin_login.php">Área do Administrador ></a>
         </footer>
     </div>
 </body>

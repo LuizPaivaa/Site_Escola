@@ -181,6 +181,9 @@ $conn->close();
         <?php endif; ?>
 
         <form action="cadastro_aluno.php" method="POST">
+            <label for="RA">RA (Registro do Aluno)</label>
+            <input type="text" id="RA" name="email" required>
+            
             <label for="nome">Nome:</label>
             <input type="text" name="nome" required>
 
