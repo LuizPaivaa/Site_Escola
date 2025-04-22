@@ -2,7 +2,7 @@
 .footer {
     background: linear-gradient(90deg, #053566, #003366);
     color: #fff;
-    padding: 40px 0;
+    padding: 5px 0;
     font-family: Arial, sans-serif;
 }
 
@@ -91,7 +91,7 @@
     }
 
     .footer-logo-img {
-        width: 120px;
+        width: 12   0px;
     }
 
     .footer-links {
@@ -107,6 +107,7 @@
 
     .footer-column h4 {
         font-size: 16px;
+
     }
 
     .footer-column a {
@@ -129,5 +130,18 @@
 }
 .footer-column h1 {
     font-size:  10px;
-
+    text-align: center;
+}
+.footer-column h4{
+    text-align: center;
+}
+.footer-logo-img{
+    position: fixed;
+    left: 0;
+    top: 90%;
+   
+   
+   /* Centraliza verticalmente */
+    width: 200px
+     
 }
