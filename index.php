@@ -58,28 +58,27 @@ $is_logged_in = isset($_SESSION['user_id']);
         <h2 class="titulo">CURSOS <span>DISPONÍVEIS.</span></h2>
         <div class="row">
             <div class="col-md-6 cursos-box destaque-informatica">
-                <i class="bi bi-pc-display"></i>
+                
                 <h3>Informática</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
                 <a href="informatica.php" class="btn saiba-mais">Saiba Mais</a>
             </div><!-- cursos-box -->
 
             <div class="col-md-6 cursos-box destaque-administracao">
-                <i class="bi bi-bank"></i>
+                
                 <h3>Administração</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
                 <a href="administracao.php" class="btn saiba-mais">Saiba Mais</a>
             </div><!-- cursos-box -->
 
             <div class="col-md-6 cursos-box destaque-nutricao">
-                <span class="glyphicon">&#xf8ff;</span>
                 <h3>Nutrição e Dietética</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
                 <a href="nutricao.php" class="btn saiba-mais">Saiba Mais</a>
             </div><!-- cursos-box -->
 
             <div class="col-md-6 cursos-box destaque-turismo">
-                <i class="bi bi-bus-front-fill"></i>
+              
                 <h3>Guia de Turismo</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
                 <a href="turismo.php" class="btn saiba-mais">Saiba Mais</a>

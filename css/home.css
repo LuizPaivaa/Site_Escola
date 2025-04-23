@@ -197,16 +197,21 @@ section.cursos .flex {
 
 /* Títulos dos cursos */
 .cursos .cursos-box h3 {
-    font-size: 24px; /* Diminuindo o tamanho do título */
-    margin: 10px 0;
-    color: #333; /* Título mais visível */
+    font-size: 30px; /* Diminuindo o tamanho do título */
+    margin: 10px 20px;
+    margin-bottom: 10px;
+    text-align: right;
+    color: #132b1a; /* Título mais visível */
+    
 }
 
 /* Descrição dos cursos */
 .cursos .cursos-box p {
-    font-size: 13px; /* Diminuindo o tamanho da descrição */
-    color: #555;
-    line-height: 1.6;  /* Ajuste no espaçamento do texto */
+    font-size: 12px; /* Diminuindo o tamanho da descrição */
+    color: #4b3030;
+    margin: 10px 20px;
+    margin-bottom: 10px;
+    text-align: right;
 }
 
 /* Botão Saiba Mais */
@@ -246,19 +251,24 @@ section.cursos .flex {
 
 .destaque-informatica {
     
-    background-image: url( /img/nutri.jpg);
+    background-color: #df1111;
+    background-repeat: no-repeat;
 }
 
 .destaque-administracao {
     background-color: #e0f7fa;
+    background-image: url(../img/admmmm.png);
 }
 
 .destaque-nutricao {
-    background-color: #f1f8e9; 
+    background-image: url(../img/nutri.jpg);
 }
 
 .destaque-turismo {
-    background-color: #fff8e1;  
+    background-color: #f5be58;  
+    background-image: url(../img/images.jpg);
+    background-repeat: no-repeat;
+   
 }
 #backToTopBtn {
     position: fixed;
