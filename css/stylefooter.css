@@ -21,6 +21,7 @@
 .footer-logo-img {
     width: 150px;
     margin-bottom: 20px;
+    
 }
 
 /* Links do footer */
@@ -136,12 +137,15 @@
     text-align: center;
 }
 .footer-logo-img{
-    position: fixed;
-    left: 0;
-    top: 90%;
-   
-   
-   /* Centraliza verticalmente */
-    width: 200px
-     
+position: absolute;
+left: 0;  
+padding-left: 5px; 
+}
+
+
+.footer-column img {
+    width: 46px;
+    height: 46px;
+    position: absolute; right: 400px; 
+    
 }

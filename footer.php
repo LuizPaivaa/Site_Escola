@@ -23,7 +23,11 @@
                         target="_blank">
                        <h1> Praça Padre Vitor Coelho de Almeida,<br>
                         499, Aparecida - SP</h1>
+                        
                     </a>
+                    <footer>
+                        <img src="img/whats.png" alt="" class="img-whats">
+                        </footer>
                 </div>
             </div>
         </div>
