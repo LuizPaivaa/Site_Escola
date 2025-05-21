@@ -9,29 +9,31 @@
 </head>
 
 <body>
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-logo">
-                <img src="img/logobranca.png" alt="CTMA Logo" class="footer-logo-img">
-            </div>
-            <div class="footer-links">
+  <footer class="footer">
+  <div class="footer-container">
 
+    <!-- LOGO -->
+    <div class="footer-logo">
+      <img src="img/logobranca.png" alt="CTMA Logo" class="footer-logo-img">
+    </div>
 
-                <div class="footer-column">
-                    <h4>Localização</h4>
-                    <a href="https://www.google.com/maps/place/Praça+Padre+Vitor+Coelho+de+Almeida,+499,+Aparecida+-+SP"
-                        target="_blank">
-                       <h1> Praça Padre Vitor Coelho de Almeida,<br>
-                        499, Aparecida - SP</h1>
-                        
-                    </a>
-                    <footer>
-                        <img src="img/whats.png" alt="" class="img-whats">
-                        </footer>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <!-- LOCALIZAÇÃO -->
+    <div class="footer-column">
+      <div class="location-info">
+        <h4>LOCALIZAÇÃO</h4>
+        <a href="https://www.google.com/maps/place/Praça+Padre+Vítor+Coelho+de+Almeida,+499,+Aparecida+-+SP" target="_blank">
+          <p>
+            Praça Padre Vítor Coelho de Almeida,<br>
+            499, Aparecida - SP
+          </p>
+        </a>
+      </div>
+      <img src="img/whats.png" alt="WhatsApp" class="img-whats">
+    </div>
+
+  </div>
+</footer>
+
 </body>
 
 </html>
